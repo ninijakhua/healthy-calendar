@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    all: unset;
+}
+ li > img {
+    width: 100px;
+    height: 100px;
+}
+.wraper_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+h1 {
+    font-size: 3rem;
+    color: rgb(12, 22, 92);
+ 
+    padding-top: 8vh;
+   
+}
+.apps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
